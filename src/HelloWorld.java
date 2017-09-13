@@ -48,13 +48,41 @@ public class HelloWorld {
 
         //If statements and code blocks
 //-------------------------------------------------------------------------------------
-        int score = 0;
+        int score = 500;
 
         if(score<=500||score>500)
         // The following is a code block:
         {
             System.out.println("This will always return true");
         }
+//-------------------------------------------------------------------------------------
+
+
+        //If-else structures
+//-------------------------------------------------------------------------------------
+        if(score<500){
+            System.out.println("This will print if the score is smaaler than 500");
+        }
+        else if(score>500){
+            System.out.println("This will print if the score us bigger than 500");
+        }
+        else{
+            System.out.println("This will print if the above requirements are not met (when the score equals 500)");
+        }
+//-------------------------------------------------------------------------------------
+
+    }//####################MAIN CLASS ENDS HERE###########################
+
+
+        //Methods
+//-------------------------------------------------------------------------------------
+    public static int AddNumbers(int a, int b){
+
+        int result;
+        result = a+b;
+        return result;//Adds the two given numbers and returns the result
     }
 //-------------------------------------------------------------------------------------
+
+    
 }
