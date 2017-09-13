@@ -20,5 +20,18 @@ public class HelloWorld {
         double pi = Math.PI;
         System.out.println(pi);
 
+        //Keywords, the following line will not work:
+        //int int = 5;
+
+        //Statement with an expression:
+        int myVariable = 50;
+        System.out.println(myVariable);
+
+        //whitespace
+        int space                                           = 20;
+        //However this doesnt work:
+        //i    n      t          spa     ce        =       2    0;
+
+
     }
 }
