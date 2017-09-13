@@ -80,9 +80,22 @@ public class HelloWorld {
 
         int result;
         result = a+b;
-        return result;//Adds the two given numbers and returns the result
+        return result;
+        //Adds the two given numbers and returns the result
     }
 //-------------------------------------------------------------------------------------
 
-    
+
+        //Method overloading
+//-------------------------------------------------------------------------------------
+    public static int AddNumbers(int a, int b, int c){
+
+        int result;
+        result = a+b+c;
+        return result;
+        //Adds the three given numbers and returns the result.
+        // Note that the method name is identical as the method above.
+//-------------------------------------------------------------------------------------
+    }
+
 }
