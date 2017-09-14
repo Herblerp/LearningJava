@@ -61,7 +61,7 @@ public class HelloWorld {
         //If-else structures
 //-------------------------------------------------------------------------------------
         if(score<500){
-            System.out.println("This will print if the score is smaaler than 500");
+            System.out.println("This will print if the score is smaller than 500");
         }
         else if(score>500){
             System.out.println("This will print if the score us bigger than 500");
@@ -69,6 +69,49 @@ public class HelloWorld {
         else{
             System.out.println("This will print if the above requirements are not met (when the score equals 500)");
         }
+//-------------------------------------------------------------------------------------
+
+
+        //Switch statements
+//-------------------------------------------------------------------------------------
+        int value = 1;
+
+        switch(value){
+            case 1:
+                System.out.println("The value is 1");
+                break;
+            case 2:
+                System.out.println("The value is 2");
+                break;
+            default:
+                System.out.println("The value is neither 1 or 2");
+                break;
+        }
+//-------------------------------------------------------------------------------------
+
+
+        //For loops
+//-------------------------------------------------------------------------------------
+        for (int i = 1; i<=10; i++){
+            System.out.println("i = " + i);
+        }
+//-------------------------------------------------------------------------------------
+
+
+        //While loops and the break statement
+//-------------------------------------------------------------------------------------
+        while(true){
+            System.out.println("This will display once");
+            break;
+        }
+//-------------------------------------------------------------------------------------
+
+
+        //Do while loops
+//-------------------------------------------------------------------------------------
+        do{
+            System.out.println("This will display once");
+        }while(false);
 //-------------------------------------------------------------------------------------
 
     }//####################MAIN CLASS ENDS HERE###########################
